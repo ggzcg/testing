@@ -1,0 +1,26 @@
+{
+  "name": "jonzhong",
+  "version": "1.0.4",
+  "description": "tiny node web server",
+  "main": "src/app.js",
+  "bin": {
+    "jonzhong": "bin/jonzhong"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "mocha": "mocha test/mocha.js",
+    "cover": "istanbul cover src/math.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.0.0",
+    "handlebars": "^4.7.6",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.2.0"
+  }
+}
